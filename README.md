@@ -10,3 +10,17 @@ This repository contains some of the assignments from Hyperskill's python course
     - Checks if the account to receiver the transfer exists;
     - Checks if the receiving account is not the same that is doing the transfer;
     - Checks if the transfering account has enough funds for that.
+
+### [Food Blog Backend](https://hyperskill.org/projects/167?track=30)
+- A project that mixes SQL (SQLite3) and some python data structures and libraries
+- SQL concepts/commands used:
+    - TABLE CREATION
+    - INSERT
+    - SELECT
+    - PRIMARY KEYS
+    - FOREIGN KEYS
+    - WHERE, LIKE, IN
+    - JOIN
+    - GROUP BY, HAVING
+    - COUNT(*)
+    
