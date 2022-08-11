@@ -24,3 +24,15 @@ This repository contains some of the assignments from Hyperskill's python course
     - GROUP BY, HAVING
     - COUNT(*)
     
+### [Dominoes](https://hyperskill.org/projects/146?track=30)
+- A domino Game to be played against a simple AI bot
+- In each turn it will be presented the current status of the game and the player's hand
+    - On player's turn he will asked to select a piece to play:
+        - Negative numbers will put the desired card on the left side (If the move is valid)
+        - Positive numbers will put the desired card on the right side (If the move is valid)
+        - 0 will take one piece from the stock (If any available)
+    - On AI's turn, the player will be informed of the status and asked to press ENTER to see the AI's next move.
+- 3 Possible outcomes are considered:
+    - Win, if player empties his hand
+    - Loss, if AI empties its hand
+    - Draw, if both player and AI still have pieces in their hands and there are no more moves available
